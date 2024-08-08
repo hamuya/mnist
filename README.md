@@ -2,22 +2,38 @@
 プロジェクト構成
 css
 コードをコピーする
-mnist_digit_recognition/
+mnist_digit_recognition/ 
+
 │
+
 ├── data/
+
 │   ├── upload_sample_image_here.txt
+
 │
+
 ├── model/
+
 │   └── train_and_save_model.py
+
 │
+
 ├── src/
+
 │   ├── predict_digit.py
+
 │
+
 ├── .gitignore
+
 ├── README.md
+
 └── requirements.txt
+
 各ファイルの内容
+
 .gitignore
+
 モデルファイルや仮想環境など、Gitに含めないファイルを指定します。
 
 markdown
@@ -40,18 +56,31 @@ This project demonstrates how to train a model on the MNIST dataset and use it t
 ## Project Structure
 
 mnist_digit_recognition/
+
 │
+
 ├── data/
+
 │ ├── upload_sample_image_here.txt
+
 │
+
 ├── model/
+
 │ └── train_and_save_model.py
+
 │
+
 ├── src/
+
 │ ├── predict_digit.py
+
 │
+
 ├── .gitignore
+
 ├── README.md
+
 └── requirements.txt
 
 perl
